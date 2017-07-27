@@ -2,6 +2,8 @@
 
 Analyze GOOGL, MSFT, and COF.
 
+Make sure to first run `bundle install`.
+
 ```bash
 $ /bin/stock_analysis.rb -h
 
