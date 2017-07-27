@@ -2,10 +2,16 @@
 
 Analyze GOOGL, MSFT, and COF.
 
-Make sure to first run `bundle install`.
+Prints out the JSON value of any given stock analysis.
+
+## Usage
+
+Make sure to run `bundle install` first!
+
+Then, from this directory,
 
 ```bash
-$ /bin/stock_analysis.rb -h
+$ ./bin/stock_analysis.rb -h
 
 Usage: stock_analysis.rb [options]
     -a, --analysis                   Analysis (Default)
@@ -15,7 +21,7 @@ Usage: stock_analysis.rb [options]
     -h, --help                       Print this help
 ```
 
-Prints out the JSON value of any given stock analysis.
+## Tests
 
 To run tests, simply execute:
 
@@ -24,4 +30,6 @@ bundle install
 bundle exec rspec spec
 ```
 
-Requires Ruby >2.3.x
+## Requirements
+
+Ruby >2.3.x
