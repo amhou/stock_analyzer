@@ -15,4 +15,11 @@ Usage: stock_analysis.rb [options]
 
 Prints out the JSON value of any given stock analysis.
 
+To run tests, simply execute:
+
+```
+bundle install
+bundle exec rspec spec
+```
+
 Requires Ruby >2.3.x
